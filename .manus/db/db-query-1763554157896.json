@@ -1,0 +1,19 @@
+{
+  "query": "SELECT * FROM cotisationPayments LIMIT 10",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 24xRfaTZXC7aihg.79dcb6345405 --database bDpYvLS4XRvN3dELfNETMq --execute SELECT * FROM cotisationPayments LIMIT 10",
+  "rows": [
+    {
+      "id": "1",
+      "planId": "1",
+      "montant": "120000",
+      "paymentMethod": "T-money",
+      "transactionRef": "TXN-1763553721392",
+      "statut": "completed",
+      "createdAt": "2025-11-19 12:02:01"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tplanId\tmontant\tpaymentMethod\ttransactionRef\tstatut\tcreatedAt\n1\t1\t120000\tT-money\tTXN-1763553721392\tcompleted\t2025-11-19 12:02:01\n",
+  "stderr": "",
+  "execution_time_ms": 54
+}

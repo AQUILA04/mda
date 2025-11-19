@@ -1,0 +1,9 @@
+{
+  "query": "INSERT INTO fluxComptable (transactionId, typeFlux, montantNet, createdAt) SELECT id, 'vente_digitale', montant, createdAt FROM transactions WHERE type = 'cotisation_payment' OR type = 'vente' LIMIT 10",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 24xRfaTZXC7aihg.79dcb6345405 --database bDpYvLS4XRvN3dELfNETMq --execute INSERT INTO fluxComptable (transactionId, typeFlux, montantNet, createdAt) SELECT id, 'vente_digitale', montant, createdAt FROM transactions WHERE type = 'cotisation_payment' OR type = 'vente' LIMIT 10",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 50
+}

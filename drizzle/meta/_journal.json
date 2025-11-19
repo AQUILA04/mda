@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1763538634008,
+      "tag": "0000_condemned_smasher",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1763538767283,
+      "tag": "0001_jittery_sumo",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1763540246331,
+      "tag": "0002_soft_monster_badoon",
+      "breakpoints": true
+    }
+  ]
+}
